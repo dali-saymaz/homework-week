@@ -1,0 +1,205 @@
+body { margin:0; 
+    padding:0; 
+  }
+  .wrap { width:980px;
+    margin:0 auto;
+  }
+  .lasts{
+    text-decoration: underline;
+}
+  h2 {
+    margin-left: 10px;
+  }
+  /* Ust kisim*/
+  .header { height:250px;
+    margin-bottom:10px;
+    background-color:#b0e3e2; 
+   }
+
+   .profile-img{
+    float: left;
+    width: 170px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+
+
+/* FLEX */
+.row {
+    display: table;
+    table-layout: fixed; 
+    border-spacing: 5px; 
+    font-family: Sans-serif; 
+  
+}
+/* FLEX */
+
+
+
+   .name {
+       float: left;
+       font-size: 42px;
+       margin-left: 0px;
+       margin-top: 30px;
+   }
+   /*icerik*/
+   .content {
+    width:690px;
+    height:590px;
+    float:right;
+
+}
+.timeline ul{
+    border-left: 4px solid #ffe838;
+    border-radius: 8rem;
+    background-color: rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+    position: relative;
+    padding: 5rem;
+    list-style: none;
+    text-align: left;
+    width: 45%;
+}
+.timeline h3{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight:200;
+    margin-bottom: 1rem;
+   
+}
+.timeline .date{
+    border-bottom: 1px solid rgb(15, 15, 15);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+}
+.timeline .date:last-of-type{
+    padding-bottom: o;
+    margin-bottom: 0;
+    border: none;
+}
+.timeline .date::before,
+.timeline .date::after{
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);  
+}
+.timeline .date::before{
+    content: attr(data-date);
+    left: -19rem;
+    text-align: right;
+    min-width: 12rem;
+    font-size: 1rem;
+}
+.timeline .date::after{
+    content: '';
+    box-shadow: 0 0 0 4px rgb(255, 177, 33);
+    border-radius: 100%;
+    left: -6rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: rgb(235, 228, 228);
+}
+/* Sol kisim*/
+.sidebar {
+    width:275px;
+    height:1650px;
+    background-color:#b0e3e2;
+    float:left;
+}
+
+figure {
+    display:flex;
+  }
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid #999;
+    object-fit: cover;
+    object-position: 50% 15%;
+  }
+  
+  figcaption {
+    margin-left: 5px;
+    align-self: center;
+    color: #000000;
+  }
+.clear { clear:both}
+
+
+
+/* FLEX */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+  /* FLEX */
+
+
+  .logo {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .bar {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .html {width: 90%; background-color: #000000;}
+  .css {width: 80%; background-color: #000000;}
+  .js {width: 65%; background-color: #000000;}
+  .rea {width: 60%; background-color: #000000;}
+
+  a:hover {
+    color: red;
+  }
+
+
+
+
+  /* NAVBAR START*/
+  /* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+  /* NAVBAR FINISH*/
